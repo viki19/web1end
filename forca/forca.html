@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  <!-- bootstrap molde --> 
+
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <title>Jogo da Forca</title>
+</head>
+
+<body>
+<div class="container">
+  <h1 class="text-center">Jogo da Forca!</h1>
+  <div class="float-right">Partes do corpo! <span id='contadordeerros'>0</span> of <span id='maxWrong'></span></div>
+  <div class="text-center">
+    <img id='hangmanPic' src="./images/0.jpg" alt="">
+    
+    <!--  MSG   -->
+    <p>Adivinhe a linguagem de programacao:</p>
+    <!--  NAO MOSTRA   -->
+    <p id="localpalavra">Local da palavra secreta</p>
+    <div id="keyboard"></div>
+        <!-- BOTAO   -->
+    <button class="btn btn-info" onClick="reset()">Reset</button>
+  </div> 
+</div>
+    <!--  REF   -->
+<script src='./js/forca.js'></script>
+</body>
+</html>

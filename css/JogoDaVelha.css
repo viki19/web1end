@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#btnStart{
+    margin-top: 20px;
+}
+#select:focus{
+    outline: none;
+    border: none;
+    box-shadow:0 0 0 .2rem #868a8e;
+    transition-duration: 0.1s;
+}
+.col{
+    height: 175px;
+    cursor: pointer;
+}
+h4{
+    color: #fff;
+    text-align: center;
+}
+#p1{
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+#p2{
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+#p3{
+    border-bottom: 5px solid #fff;
+}
+#p4{
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+#p5{
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+#p6{
+    border-bottom: 5px solid #fff;
+}
+#p7{
+    border-right: 5px solid #fff;
+}
+#p8{
+    border-right: 5px solid #fff;
+}
+#placarx{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+#placaro{
+    font-weight: bold;
+    color: #fff;   
+    font-size: 20px;
+}
+#VezDe{
+    color: #fff;
+}

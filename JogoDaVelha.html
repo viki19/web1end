@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/JogoDaVelha.css">
+    <link rel="sortcut icon" href="img/x.png" type="image/x-icon">
+    <title>Jogo da Velha</title>
+</head>
+
+<body class="bg-dark">
+
+    <div class="container">
+
+        <header class="my-4">
+            <h1>Jogo da Velha</h1>
+        </header>
+
+        <div class="row justify-content-center my-5">
+            <select name="Modo" id="select" class="custom-select col-2">
+                <option selected disabled>Modo de Jogo</option>
+                <option value="Singleplayer">Singleplayer</option>
+                <option value="Multiplayer">Multiplayer</option>
+            </select>
+        </div>
+
+        <div class="row justify-content-center">
+            <button class="btn btn-light" id="btnComecar">Começar</button>
+        </div>
+
+        <span id="erro"></span>
+
+        <h4 class="d-block mx-auto my-3" id="titleplacar"></h4>
+
+        <div class="row mx-auto justify-content-center">
+
+            <p class="my-auto mr-2" style="color: #fff; font-weight: 500;" id="txtX"></p>
+            <span id="placarx" class="alert my-auto mr-3"></span>
+            <p class="my-auto mr-2" style="color: #fff; font-weight: 500;" id="txtO"></p>
+            <span id="placaro" class="alert my-auto"></span>
+
+        </div>
+
+        <div class="row justify-content-center my-3" id="VezDe">
+            <h5 id="txtVez" class="my-auto mx-2"></h5>
+            <img src="" width="75px">
+        </div>
+
+        <span id="msg"></span>
+        <span id="btnlimpar" style="width: 100px;"></span>
+
+        <section class="my-5 w-50 mx-auto">
+
+            <div class="row">
+                <!-- Linha 1 -->
+
+                <div class="col" id="p1" jogar="">
+
+                </div>
+                <div class="col" id="p2" jogar="">
+
+                </div>
+                <div class="col" id="p3" jogar="">
+
+                </div>
+
+            </div>
+            <div class="row">
+                <!-- Linha 2 -->
+
+                <div class="col" id="p4" jogar="">
+
+                </div>
+                <div class="col" id="p5" jogar="">
+
+                </div>
+                <div class="col" id="p6" jogar="">
+
+                </div>
+
+            </div>
+            <div class="row">
+                <!-- Linha 3 -->
+
+                <div class="col" id="p7" jogar="">
+
+                </div>
+                <div class="col" id="p8" jogar="">
+
+                </div>
+                <div class="col" id="p9" jogar="">
+
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <script src="scriptJgVelha.js"></script>
+</body>
+
+</html>
